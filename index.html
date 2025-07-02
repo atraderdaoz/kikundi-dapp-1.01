@@ -1,1 +1,26 @@
-<!-- Kikundi 1.01 RC - Main UI -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kikundi DApp 1.01</title>
+  <base href="/kikundi-dapp-1.01/" /> <!-- Required for GitHub Pages -->
+
+  <!-- Add your favicon or styles -->
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>🚀 Kikundi DApp 1.01</h1>
+    <button onclick="connectWallet()">🔗 Connect Wallet</button>
+    <div id="wallet-status">Wallet not connected</div>
+  </div>
+
+  <!-- Your Scripts -->
+  <script src="config.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="src/walletConnect.js"></script>
+  <script src="src/staking.js"></script>
+  <script src="src/web.js"></script>
+</body>
+</html>
