@@ -1,1 +1,1 @@
-// Firebase group chat + referrals setup
+// Firebase config placeholder

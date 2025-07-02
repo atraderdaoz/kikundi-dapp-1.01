@@ -1,1 +1,1 @@
-// staking.js
+// staking logic placeholder
