@@ -1,0 +1,1 @@
+// BSC Testnet + KKT contract config
